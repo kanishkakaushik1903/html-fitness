@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry's fitness</title>
+</head>
+<link href="C:\web development\project\fonts\Barlow_Condensed.zip" rel="extra">
+<style>
+    body{
+        color:white;
+        background:url('img/bg9.jpg');
+        }
+    .left{
+        position:absolute;
+        left:15px;
+        top:10px;
+        /* border: 2px  solid red; */
+        color:white;
+        background-color:gray;
+    }
+    .mid{
+        /* border:2px solid yellow; */
+        color:white;
+        display:block;
+        width:33%;
+        margin:12px auto;
+        /* padding:150px auto; */
+       }
+    .right{
+        position:absolute;
+        right:15px;
+        top:10px;
+        /* border:2px solid greenyellow; */
+        color:white;
+    }
+    .navbar{
+        display:inline-block;
+         }
+    .navbar li {
+        display:inline-block;
+        font-size:20px;
+        list-style-type:none;
+        }
+    .navbar li a{
+        padding:10px 20px;
+        text-decoration:none;
+        color:white;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        color:rgb(234, 171, 171);
+        /* color: rgb(140, 123, 123); */
+        text-decoration:underline;
+    }
+    img{
+        width:150px;
+        height:130px;
+        background-color:gray;
+        }
+        left div{
+            text-align: center;
+        }
+        .btn {
+            /* background-color: rgb(61, 60, 60); */
+            margin: 0px 10px;
+            padding: 4px 14px;
+            color: white;
+            border-radius: 12px;
+            font-size: 20px;
+        }
+        .btn :hover{
+            text-decoration: underline;
+            background-color: rgb(140, 123, 123);
+        }
+        .container{
+            /* border: 2px solid red; */
+            margin: 100px 200px;
+            padding: 50px 50px;
+            width:33%;
+            display: block;
+        }
+        .l{
+        position:absolute;
+        left:15px;
+        top:450px;
+        /* border: 2px  solid red; */
+        color:white;
+        /* background-color:gray; */
+        font-size: 25px;
+    }
+    .m{
+        
+        /* border:2px solid yellow; */
+        color:white;
+        display:block;
+        width:50%;
+        /* left:20px;
+        top:500px; */
+        margin:10px 10px; 
+         padding:20px 20px;
+        font-size: 20px;
+        height: 20%;
+       }
+    .lf{
+        position:absolute;
+        left:15px;
+        top:750px;
+        /* border: 2px  solid red; */
+        color:white;
+        /* background-color:gray; */
+        font-size: 25px;
+    }
+    .mi{
+        
+        /* border:2px solid yellow; */
+        color:white;
+        display:block;
+        width:50%;
+        margin:10px 10px;
+        padding:20px 20px;
+        font-size: 20px;
+       }
+       #contact{
+        font-size: 20px;
+       }
+       /* #rg{
+        position:absolute;
+        right:15px;
+        top:100px;
+        /* border:2px solid greenyellow; */
+        /* color:white;
+
+       } */
+     
+</style>
+<body>
+    <header>
+        <div class="left">
+          <img src="img/logo10.png" alt="">
+          <div>
+           harry's Fitness
+          </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#class">Class</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+          <button class="btn">
+            <a href="form.html"> Join now</a>
+          </button>
+
+         
+        </div>
+    </header>
+    <div class="container" id="home">
+       <h1>INCREASE YOUR</h1>
+       <h1>MUSCLE POWER</h1>
+       <P>A small river named Duden flows by their place and supplies it</P>
+       <P>with the neccesary regelialia</P>
+       <!-- <div id="rg"><img href="img/bg2.jpg"></div> -->
+    </div>
+    <section id="about">
+        <div class="l">
+            <h2>Information About us</h2>
+        </div>
+        <div class="m">
+            <p>Our team of fitness and nutrition professionals are invested in your health.<br> We make every decision with our members’ well-being in mind.<br> Achieve your goals with us!
+              <strong> <ul>
+                    <li>Men's fitness and workout</li>
+                    <li>Women's fitness and workout</li>
+                    <li>Personal trainnig</li>
+                </ul>
+                </strong>
+            </p>
+        </div>
+        
+    </section>
+    <section id="class">
+        <div class="lf">
+            <h2>Classes</h2>
+        </div>
+        <div class="mi">
+          <ol>
+            <li>
+                <h4>Crossfit group trainng</h4>
+                <p>Take your workout to the next level with CrossFit Group Training Classes with Pravin</p>
+            </li>
+            <li>
+                <h4>Kickboxing</h4>
+                <p>Whack them Fitness Struggles and Grow Strong!</p>
+            </li>
+            <li>
+                <h4>Indoor cycling</h4>
+                <p>Burn 700cal with Mumbai’s best Indoor Cycling Party!</p>
+            </li>
+            <li>
+                <h4>Zumba fitness</h4>
+                <p>Join Waves Gym Zumba Fitness —where every beat drops calories & lifts spirits in our dance party!</p>
+            </li>
+          </ol>
+        </div>
+     </section>
+     <section id="contact">
+        <h2>contact us</h2>
+        <ul>
+            <li>Mobile No. ---- 9877372110</li>
+            <li>Email id ---- kabhhsuii@gmail.com</li>
+            <li>Address ---- xyz colony delhi</li>
+        </ul>
+     </section>
+    
+</body>
+</html>
